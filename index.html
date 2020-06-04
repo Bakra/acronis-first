@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+
+    <div class="container"> 
+          <div class="col1"> 
+            <div class="item">
+              <span>Sync and Share</span>
+              <h2>Acronis Cyber Disaster Recovery Cloud</h2>
+              <span class="updated">Just Updated</span>
+            </div>
+            <div class="item medium">
+            Acronis Files Connect isn’t limited to Macs. Seamless file access is also provided for mobile devices (iOS, Android, and Windows Phone) with intuitive browsing, searching, previewing.</div>
+          </div>
+          <div style="display: flex; flex-direction: row; width: 100%" class="mobile">
+          <div class="col2">             
+            <div class="item">
+              <img src="icons/one.png">
+              <h4>AFP Connection to File Shares</h4>
+              <div>With Acronis Files Connect, Macs connect to and mount file shares on Windows file servers and NAS as native AFP volumes. This allows Mac users to continue using the same tools.</div>
+            </div>
+            <div class="item">
+              <img src="icons/two.png">
+              <img src="icons/three.png" class="img-bottom">
+              <h4>Full Content Spotlight Searching</h4>
+              <div>Acronis Files Connect links Mac Spotlight to a server-side index that seamlessly integrates with the native Windows Search service or a built-in <a href="#">Acronis content indexer</a>.</div>
+            </div>
+            <div class="item">
+              <img src="icons/four.png">
+              <h4>Absolute VM Protection</h4>
+              <div>Defend more hypervisors, including RedHat, KVM, Oracle VM, Citrix Xen, VMware and Hyper-V, with simple licensing per host allowing protection for an unlimited number of VMs </div>
+            </div>
+          </div>
+          <div class="col3">
+            <div class="item">
+              <img src="icons/five.png" height="50"width="50">
+              <h4>File Access for Mobile Devices</h4>
+              <div><a href="#">Acronis Files Connect</a> isn’t limited to Macs. Seamless file access is also provided for mobile devices (iOS, Android, and Windows Phone) with intuitive browsing, searching, previewing.</div>
+            </div>
+            <div class="item">
+              <img src="icons/six.png">
+              <h4>Time Machine Backup to File Shares</h4>
+              <div>With Acronis Files Connect, Mac users’ documents can be automatically backed up to a Windows file server or NAS, and users can selectively restore previous versions directly.</div>
+            </div>
+            <div class="item">
+              <img src="icons/seven.png">
+              <h4>Acronis Instant Restore</h4>
+              <div>Reduce outage recovery time with best-in-industry RTO by starting any physical or virtual Windows or Linux system directly from the backup storage.</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="footer">Learn more <img src="icons/arrow.png"></div>
+
+  </body>
+
+  <style>
+
+    .container {
+      margin: 20px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .col1, .col2, .col3 {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      padding: 20px;
+      height: auto;
+    }
+
+    .col2 div, .col3 div{
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(36, 49, 67, 0.9);
+    }
+
+    .col1 div {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      color: #00204D;
+    }
+
+    .item {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
+    }
+
+    .img-bottom {
+      width: 100px;
+      height: 15px;
+      margin-bottom: -5px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    .updated {
+      color:#9BC225;
+    }
+
+    span {
+      color: rgba(36, 49, 67, 0.6);
+    }
+    .footer {
+      position: absolute;
+      left: 64px;
+      color: #408BEA;
+      font-size: 24px;
+    }
+
+    .footer img {
+      width: 15px;
+      height: 15px;
+    }
+
+    @media screen and (max-width: 1024px) {
+      .container {
+        display: block;
+      }
+      .col1 {
+        width: 100%
+      }
+      .col2, .col3 {
+        width: 50%;
+      }
+      .medium {
+        padding-right: 20px;
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      .container {
+        display: block;
+      }
+      .col1 {
+        width: 88%
+      }
+      .col2, .col3 {
+        width: 88%;
+      }
+      .mobile {
+        display: block !important;
+      }
+      .medium {
+        padding-right: 20px;
+      }
+    }
+
+  <style>
+</html>
